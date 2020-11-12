@@ -52,6 +52,32 @@ buildkite_payload = {
   ]
 }
 
+github_payload = { 
+  "routing_key": github_key,
+  "payload": {
+    "summary": "shoffman pushed branch main from thursday-shop/checkout",
+    "source": "GitHub",
+    "timestamp": timestamp,
+    "custom_details": {
+      
+    }
+  },
+  "links": [
+    {
+      "href": "https://github.com/pagerduty/",
+      "text": "View on GitHub"
+    },
+    {
+      "href": "https://github.com/pagerduty/",
+      "text": "Repo"
+    },
+    {
+      "href": "https://github.com/pagerduty/",
+      "text": "Sender - shoffman"
+    }
+  ]
+}
+
 
 
 #Send in events
